@@ -1,0 +1,48 @@
+
+.skill{
+    /* height: 30px; */
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.skill_detail{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+.social a{
+    color: rgb(231, 0, 127);
+    padding-right: 15px;
+}
+.social a:hover{
+    transform: scale(1.7);
+    font-size: 15px;
+    color:white;
+
+}
+
+.profile_main{
+    background-color: #095a55;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 100px 100px;
+
+}
+
+.profile_image img{
+    box-shadow: 0 1px 0 0 var(white);
+    display: flex;
+    width : 30vw;
+    margin:70px 0 0 200px;
+    box-shadow: 3px 3px rgb(24, 87, 146), -1em 0 .5em rgb(98, 121, 255);
+    border-radius: 200px 200px 200px 20px;
+    /* background-image: url();
+    background-size: cover; */
+}
+.profile_image .image_background:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}

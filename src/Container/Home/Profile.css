@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    color:aliceblue;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    padding-top: 4rem;
+    position: relative;
+    
+}
+.profile_main{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: #095a55;
+    height: 400px;
+}
+.social a{
+    padding-right: 5px;
+    color: black;
+}
+.profile_details{
+    padding-left: 10px;
+    position: absolute;
+    left: 170px;
+}
+.profile_details .skill .skill_detail{
+    /* margin-bottom: 10px; */
+    padding-bottom: 15px;
+}
+.profile_image{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; 
+    position: absolute;
+    right: 180px;
+}
+.profile_image img{
+    width: 50%;
+    /* min-height: 200px; */
+    
+    
+    /* padding: 50px 0; */
+    border-radius: 25px;
+}
+
+/* Resposive */
+@media (max-width:1196px){
+    .profile_details{
+        left: 120px;
+    }
+    .profile_image{
+        right: 120px;
+    }
+}
+@media (max-width:1085px){
+    .profile_details{
+        left: 80px;
+    }
+    .profile_image{
+        right: 80px;
+    }
+}
+@media (max-width:895px){
+    .profile_details{
+        left: 40px;
+    }
+    .profile_image{
+        right: 40px;
+    }
+}
+@media (max-width:800px){
+    .profile_details{
+        left: 0px;
+    }
+    .profile_image{
+        right: 0px;
+    }
+}
+@media (max-width:675px){
+    
+    .profile_image img{
+        width:45%
+    }
+}
+@media (max-width:610px){
+    .profile_details {
+        font-size: 25px;
+        padding-bottom: 10px;
+        
+    }
+    .profile_details .name{
+        padding-bottom: 10px;
+    }
+}
+@media (max-width:480px){
+    .profile_image img{
+        width: 40%;
+    }
+}
+@media (max-width:435px){
+    .profile_image img{
+        width: 38%;
+    }
+}
+@media (max-width:430px){
+    .profile_image{
+        display: none;
+    }
+    .profile_details {
+        padding-left: 70px;
+        padding-top: 80px;
+        font-size: 30px;
+        
+    }
+}
+@media (max-width:340px){
+    .profile_details {
+        padding-left: 35px;
+        font-size: 25px;
+        
+    }
+}

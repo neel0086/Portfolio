@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Project_Container{
+    padding-top: 100px;
+    display: flex;
+    background-color: #095a55;
+    /* flex-direction: column; */
+}
+@media (max-width:520px){
+    .Project_Container{
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+section{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 105vh;
+    background-color: #095a55;
+}
+section::before{
+    content: '';
+    position:absolute;
+    left:0;
+    width: 50%;
+    height: 100%;
+    background-color: #2d857f;
+}
+.ContactMain{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+}
+.ContactMain .Contactdetail{
+    position: absolute;
+    top:40px;
+    width: 350px;
+    background-color: rgb(28, 44, 59);
+    height: calc(100% - 80px);
+    z-index: 1;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 20px rgb(68, 64, 64);
+}
+
+.ContactMain .Contactdetail h2{
+    color: whitesmoke;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #095a55a1;
+    border-radius: 20px;
+    padding: 5px;
+}
+.ContactMain .Contactdetail ul.Info li{
+    font-size: 18px;
+    padding: 20px 10px 10px 0px;
+    font-family: Audiowide;   
+    color: white;
+    filter: invert(0.2);
+    vertical-align: middle;
+}
+.ContactMain .Contactdetail ul.Info li .personal{
+    padding-left: 10px;
+    padding: 10px;
+
+
+}
+.ContactMain .SendMssg{
+    position: absolute;
+    padding: 70px 50px;
+    padding-left: 250px;
+    margin-left:150px ;
+    background-color: rgb(43, 46, 61);
+    width: calc(100% - 400px);
+    height: 100%;
+}
+.ContactMain .SendMssg h2{
+    color: whitesmoke;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #095a55a1;
+    border-radius: 20px;
+    padding: 5px;
+}
+.ContactMain .SendMssg .FormBox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.ContactMain .SendMssg .FormBox .textbox{
+    position: relative;
+    margin-bottom: 35px;
+}
+.ContactMain .SendMssg .FormBox .textbox.i1{
+
+    width: 47%;
+}
+.ContactMain .SendMssg .FormBox .textbox.i2{
+    width: 100%;
+}
+.ContactMain .SendMssg .FormBox .textbox textarea,
+.ContactMain .SendMssg .FormBox .textbox input{
+    width: 100%;
+    resize: none;
+    padding: 5px 7px;
+    font-size: 17px;
+    font: 1000;
+    color: black;
+    filter: invert(0.1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    outline: none;
+}
+.ContactMain .SendMssg .FormBox .textbox textarea{
+    height:120px;
+}
+.ContactMain .SendMssg .FormBox .textbox input[type="submit"]{
+    position: relative;
+    cursor: pointer;
+    max-width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0);
+    filter: invert(0);
+    padding: 10px;
+    
+}
+/* Responsive */
+@media (max-width:1200px){
+    .ContactMain{
+        width: 90%;
+        min-width: auto;
+        margin: 20px;
+    }
+    .ContactMain .Contactdetail{
+        position: relative;
+        top:0;
+        height: 550px;
+        box-shadow: none;
+    }
+    .ContactMain .SendMssg{
+        position: relative;
+        width: calc(100% - 350px);
+        padding-left: 0;
+        margin-left: 0;
+        padding: 40px;
+        height: 550px;
+        box-shadow: none;
+    }
+}
+@media (max-width:991px){
+    section{
+        background-color: #095a55;
+    }
+    section::before{
+        display: none;
+    }
+    .ContactMain{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ContactMain .SendMssg{
+        width: 100%;
+        height: auto;
+
+    }
+    .ContactMain .Contactdetail{
+        width: 100%;
+        height: auto;
+        background-color: rgb(43, 46, 61);
+    }
+}

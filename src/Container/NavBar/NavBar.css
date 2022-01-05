@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style:none;
+}
+.trans .web{
+    position: fixed;
+    z-index: 5000;
+    width: 100%;
+}
+.trans .mobile{
+    display: none;
+    position: fixed;
+    z-index: 5000;
+    width: 100%;
+}
+.Nav{
+    position: fixed;
+    top: 0;
+    z-index:5000;
+    width: 100%;
+    height: 5rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10rem 10fr 5fr 1fr 10rem;
+    background-color: #111010;
+    position: relative;
+    
+}
+.logo{
+    display: grid;
+    grid-column: 0/3;
+    margin-left:20px;
+    justify-content: start;
+    color: whitesmoke;
+
+}
+.menu-trans{
+    grid-column: 3/5;
+}
+
+.toggle .grip{
+    display:none;
+    
+    position:absolute;
+    right: -90px;
+    bottom: 1.8rem;
+    color: rgb(255, 255, 255);
+    font-size:30px ;
+    align-items: center;
+}
+
+.menu-trans ul{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.menu-trans ul li a{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.911);
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 35px;
+    border-width: 4px;
+    border-style:solid;
+    border-color: rgb(66, 66, 66);
+    cursor: pointer;
+    
+}
+.menu-trans ul li:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.menu-trans ul li .active{
+    transition: all 0.7s ease-in-out;
+    background-color: #0e1927;
+
+}
+@media (max-width:640px){
+    .menu-grip{
+        background-color: white;
+        position: fixed;
+        top: 5rem;
+        z-index: 500;
+        width: 1000%;
+        height: 164px;
+        font-size:25px ;
+    }
+    .trans .web{
+        display: none;
+    }
+    .trans .mobile{
+        display: block;
+    }
+    .menu-grip ul li{
+        padding-top: 20px;
+        padding-left: 20px;
+        border-bottom:2px solid black;
+    }
+    .menu-grip ul li:hover{
+        border-radius: 10px;
+        background-color: rgb(45, 47, 70);
+    }
+    
+    .toggle .grip{
+        display:grid;
+        grid-column: 4/5;
+    }
+    
+}
+

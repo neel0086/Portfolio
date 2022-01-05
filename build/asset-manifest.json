@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8d01ea1b.chunk.css",
+    "main.js": "/static/js/main.5ac373b8.chunk.js",
+    "main.js.map": "/static/js/main.5ac373b8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1a5705f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1a5705f6.js.map",
+    "static/js/2.846542e0.chunk.js": "/static/js/2.846542e0.chunk.js",
+    "static/js/2.846542e0.chunk.js.map": "/static/js/2.846542e0.chunk.js.map",
+    "static/js/3.af1a1c60.chunk.js": "/static/js/3.af1a1c60.chunk.js",
+    "static/js/3.af1a1c60.chunk.js.map": "/static/js/3.af1a1c60.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8d01ea1b.chunk.css.map": "/static/css/main.8d01ea1b.chunk.css.map",
+    "static/js/2.846542e0.chunk.js.LICENSE.txt": "/static/js/2.846542e0.chunk.js.LICENSE.txt",
+    "static/media/Codechef.8c38934a.mp4": "/static/media/Codechef.8c38934a.mp4",
+    "static/media/Music_play.0ce56f9d.mp4": "/static/media/Music_play.0ce56f9d.mp4",
+    "static/media/chatting.2e0fb9f7.mp4": "/static/media/chatting.2e0fb9f7.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a5705f6.js",
+    "static/js/2.846542e0.chunk.js",
+    "static/css/main.8d01ea1b.chunk.css",
+    "static/js/main.5ac373b8.chunk.js"
+  ]
+}

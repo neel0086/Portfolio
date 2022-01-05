@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.List_Container{
+    
+    min-height: 200px;
+    min-width: 200px;
+    z-index: 5000;
+}
+.List_Container .allProjects{
+    padding-left: 20px;
+    background-color: rgb(224, 224, 224);
+    flex:1;
+    min-height: 200px;
+    min-width: 200px;
+    overflow: scroll;
+    
+
+}
+.List_Container .allProjects::-webkit-scrollbar{
+    display: none;
+}
+/* .List_Container h1{
+    display: flex;
+    overflow: hidden;
+} */
